@@ -18,3 +18,8 @@ optional arguments:
                   path '/' or for url 'http' Note: value must be on all urls
                   provided
 ```
+# Example
+The following example will replace all url quaries that have redirect parameter with "https:example.com"
+```
+python3 urlreplace.py -u endpoints.txt -p redirect -v https://example.com -m http
+```
